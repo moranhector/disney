@@ -1,71 +1,41 @@
-# Getting Started with Create React App
+Programa de evaluación
+------------------------
+Prueba de DHTML
+Objetivos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Esta prueba busca evaluar la capacidad del evaluado en el manejo de las distintas herramientas que ofrece javascript para facilitar el desarrollo web de front end.
 
-In the project directory, you can run:
+Si bien la prueba es de DHTML se espera que se implemente alguna tecnología para evitar la recarga de la página como ajax o fetch.
 
-### `npm start`
+Reglas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Se puede usar cualquier IDE.
+Se puede usar cualquier librería o framework de Javascript.
+Se entregará el ejercicio resuelto junto con sus instrucciones de ejecución.
+Todos los archivos necesarios para el correcto funcionamiento del ejercicio deberán ser presentados en un repositorio git público.
+Se deben usar llamadas asíncronas.
+El ejercicio resuelto debe resolver correctamente el problema.
 
-### `npm test`
+Ejercicio propuesto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Crear una interfaz que gestione un api remoto en DHTML, el api debe ser uno abierto para no tener problemas al revisarlo, en este link encontrarás algunos que puedes usar https://github.com/public-apis/public-apis.
 
-### `npm run build`
+--- 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Elegí la API de Disney
+https://disneyapi.dev/docs
+Implementado con React Js + Axios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para ejecutar Descargar el proyecto
 
-### `npm run eject`
+Luego descomprimir y dentro de la carpeta hacer:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install react-scripts --save
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://user-images.githubusercontent.com/28865427/174329354-7cc98518-8c85-4890-a03b-6b367200a3f4.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# disney
