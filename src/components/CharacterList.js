@@ -12,7 +12,7 @@ const CharacterList = ({ characters }) => {
               <div className="card-body">
                 <h5 className="card-title">{item.name}</h5>
                 <hr />
-                <p className="card-text">Id: {item._id}</p>
+                {/* <p className="card-text">Id: {item._id}</p> */}
 
               </div>
             </div>

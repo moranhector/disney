@@ -14,8 +14,7 @@ function App() {
       .get(url)
       .then((data) => {
         console.log("datos traidos",data.data.data)
-        console.log("PROXIMA PAGINA",data.data.nextPage)
-        console.log("PAGINA anterior",data.data.prevPage)
+
         setCharacters(data.data.data);
         setInfo(data.data);
       })
@@ -30,11 +29,7 @@ function App() {
     window.scrollTo(0, 0);
   };
 
-  const handlePreviousPage = () => {
-    //console.log("anterior",info)     
-    fetchCharacters(info.prevPage);
-    window.scrollTo(0, 0);
-  };
+
 
   useEffect(() => {
     fetchCharacters(url);
@@ -47,17 +42,11 @@ function App() {
       <div className="container py-5">
         <nav>
           <ul className="pagination justify-content-center">
-            {info.prevPage ? (
-              <li className="page-item">
-                <button className="page-link" onClick={handlePreviousPage}>
-                  Previous
-                </button>
-              </li>
-            ) : null}
+
             {info.nextPage ? (
               <li className="page-item">
                 <button className="page-link" onClick={handleNextPage}>
-                  Next
+                  Página siguiente ( 50 )
                 </button>
               </li>
             ) : null}
@@ -67,26 +56,7 @@ function App() {
 
       <CharacterList characters={characters} />
 
-      <div className="container pb-5">
-        <nav>
-          <ul className="pagination justify-content-center">
-            {info.prevPage ? (
-              <li className="page-item">
-                <button className="page-link" onClick={handlePreviousPage}>
-                  Previous
-                </button>
-              </li>
-            ) : null}
-            {info.nextPage ? (
-              <li className="page-item">
-                <button className="page-link" onClick={handleNextPage}>
-                  Next
-                </button>
-              </li>
-            ) : null}
-          </ul>
-        </nav>
-      </div>
+
     </>
   );
 }
